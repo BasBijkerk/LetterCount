@@ -1,0 +1,20 @@
+﻿<Window x:Class="LetterCount.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LetterCount"
+        mc:Ignorable="d"
+        Title="Character Counter" Height="458.924" Width="800" ResizeMode="NoResize" Background="#FF49484C">
+    <Grid>
+        <Button x:Name="button" Content="Count Characters" HorizontalAlignment="Left" Margin="10,389,0,0" VerticalAlignment="Top" Width="106" Click="button_Click"/>
+        <TextBox x:Name="textBks" HorizontalAlignment="Left" Height="209" Margin="10,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="772"/>
+        <TextBox x:Name="countbks" HorizontalAlignment="Left" Height="83" Margin="10,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="772" IsReadOnly="True"/>
+        <Label x:Name="label" Content="Output Count" HorizontalAlignment="Left" Margin="10,269,0,0" VerticalAlignment="Top" Width="140"/>
+        <Label x:Name="label1" Content="Message to Count" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="filebks" HorizontalAlignment="Left" Height="23" Margin="232,390,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Copy" Content="Load Textfile" HorizontalAlignment="Left" Margin="153,387,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button x:Name="button1" Content="Load" HorizontalAlignment="Left" Margin="357,390,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+
+    </Grid>
+</Window>
